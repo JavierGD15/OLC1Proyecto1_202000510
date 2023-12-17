@@ -1,0 +1,39 @@
+digraph grafica{
+rankdir=LR;
+forcelabels= true;
+node [shape = circle];
+S0;
+S1;
+S2;
+S3;
+S4;
+S5;
+S6;
+S7;
+S8;
+S9;
+S10;
+S11;
+S12;
+S13;
+S14[shape = doublecircle];
+S0->S1[label="ε"]
+S0->S4[label="ε"]
+S1->S2[label="hex"]
+S2->S3[label="ε"]
+S4->S5[label="dig"]
+S5->S3[label="ε"]
+S3->S6[label="ε"]
+S7->S8[label="ε"]
+S7->S11[label="ε"]
+S8->S9[label="hex"]
+S9->S10[label="ε"]
+S11->S12[label="dig"]
+S12->S10[label="ε"]
+S6->S7[label="ε"]
+S6->S13[label="ε"]
+S10->S13[label="ε"]
+S10->S7[label="ε"]
+S13->S14[label="ε"]
+
+}

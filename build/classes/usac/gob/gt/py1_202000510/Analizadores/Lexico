@@ -65,4 +65,6 @@ COMENTARIO    =  ("<!"([^><]|[^!]">"|"!"[^>]|[^<]"!"|"<"[^!])*"!>")|(\/\/(.*)*)
     Errores err = new Errores(cont, "Léxico", "El caracter "+yytext()+" no pertenece al lenguaje", yyline, yychar);
     cont++;
     Errors.add(err);
+
+    
 }

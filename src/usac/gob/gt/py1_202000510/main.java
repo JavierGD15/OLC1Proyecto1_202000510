@@ -489,7 +489,9 @@ public class main extends javax.swing.JFrame {
         exp.removeAllItems();
         try {
             errors.clear();
-            Lexico lexical = new usac.gob.gt.py1_202000510.Analizadores.Lexico(new StringReader(Editor.getText()));
+            String originalText = Editor.getText(); 
+            String modifiedText = originalText.replace('(', '{').replace(')', '}');
+            Lexico lexical = new usac.gob.gt.py1_202000510.Analizadores.Lexico(new StringReader(modifiedText));
             pars = new usac.gob.gt.py1_202000510.Analizadores.Sintactico(lexical);
             pars.cont = lexical.cont;
             pars.parse();
@@ -563,7 +565,9 @@ public class main extends javax.swing.JFrame {
                 directorio.mkdirs();
             }
             errors.clear();
-            Lexico lexical = new usac.gob.gt.py1_202000510.Analizadores.Lexico(new StringReader(Editor.getText()));
+            String originalText = Editor.getText(); 
+            String modifiedText = originalText.replace('(', '{').replace(')', '}');
+            Lexico lexical = new usac.gob.gt.py1_202000510.Analizadores.Lexico(new StringReader(modifiedText));
             pars = new usac.gob.gt.py1_202000510.Analizadores.Sintactico(lexical);
             pars.cont = lexical.cont;
             pars.parse();
@@ -627,7 +631,8 @@ public class main extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton7ActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
-        consola.setText("");
+        Editor.setText(null);
+        
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void jButton6ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton6ActionPerformed

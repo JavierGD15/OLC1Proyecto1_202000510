@@ -1,0 +1,32 @@
+digraph grafica{
+rankdir=LR;
+forcelabels= true;
+node [shape = plain];
+nodo24 [label = <<table border = '1' cellboder = '1' cellspacing='0' cellpadding='10'>
+<tr>
+<td>ESTADO</td>
+<td>letra</td>
+<td>sig</td>
+<td>digito</td>
+</tr>
+<tr>
+<td> S0 {1} </td>
+<td> S1 </td>
+<td> -- </td>
+<td> -- </td>
+</tr>
+<tr>
+<td> S1 {2,3,4,5} </td>
+<td> S2 </td>
+<td> S1 </td>
+<td> S2 </td>
+</tr>
+<tr>
+<td> S2 {3,4,2,5} </td>
+<td> S2 </td>
+<td> S1 </td>
+<td> S2 </td>
+</tr>
+</table>>];
+
+}

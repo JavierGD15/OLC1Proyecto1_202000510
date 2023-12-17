@@ -1,0 +1,39 @@
+digraph grafica{
+rankdir=TB;
+forcelabels= true;
+node [shape = plain];
+TABLA [label = <<table border = '1' cellboder = '1' cellspacing='0' cellpadding='10'>
+<tr>
+<td COLSPAN = '5'>TABLA DE ERRORES</td>
+</tr>
+<tr>
+<td>#</td>
+<td>Tipo</td>
+<td>Descripcion</td>
+<td>Linea</td>
+<td>Columna</td>
+</tr>
+<tr>
+<td>1</td>
+<td>Sintáctico</td>
+<td>No se esperaba este componente: (</td>
+<td>5</td>
+<td>14</td>
+</tr>
+<tr>
+<td>2</td>
+<td>Sintáctico</td>
+<td>Error en operación no se esperaba el componente: (</td>
+<td>6</td>
+<td>13</td>
+</tr>
+<tr>
+<td>3</td>
+<td>Sintáctico</td>
+<td>Error en operación no se esperaba el componente: (</td>
+<td>7</td>
+<td>12</td>
+</tr>
+</table>>];
+
+}

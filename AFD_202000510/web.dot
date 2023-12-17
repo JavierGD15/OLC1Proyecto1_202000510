@@ -1,0 +1,27 @@
+digraph grafica{
+rankdir=LR;
+forcelabels= true;
+node [shape = circle];
+S0 [label = "S0"];
+S1 [label = "S1"];
+S2 [label = "S2"];
+S3 [label = "S3"];
+S4 [label = "S4"];
+S5 [label = "S5"];
+S6 [label = "S6"];
+S7 [label = "S7", shape = doublecircle];
+S0->S1[label="letra"]
+S1->S2[label="letra"]
+S2->S3[label="letra"]
+S3->S4[label="."]
+S4->S5[label="letra"]
+S4->S5[label="dig"]
+S5->S5[label="letra"]
+S5->S6[label="."]
+S5->S5[label="dig"]
+S6->S7[label="letra"]
+S6->S7[label="dig"]
+S7->S7[label="letra"]
+S7->S7[label="digito"]
+
+}

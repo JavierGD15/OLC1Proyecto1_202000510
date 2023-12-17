@@ -1,0 +1,588 @@
+digraph grafica {
+	graph [bb="0,0,767,852",
+		forcelabels=true,
+		rankdir=TB
+	];
+	node [label="\N",
+		shape=plaintext
+	];
+	nodo1	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td border='1'>.</td>
+<td>14</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="541.5,814.5",
+		width=0.88889];
+	nodo2	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td border='1'>.</td>
+<td>10,11,12,13</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="484.5,703.5",
+		width=1.6111];
+	nodo1 -> nodo2	[pos="e,503.4,740.64 522.52,777.2 518.1,768.75 513.33,759.63 508.71,750.8"];
+	nodo56	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>14</td>
+<td border='1'>#</td>
+<td>14</td></tr>
+<tr>
+<td></td>
+<td>14</td>
+<td></td>
+</tr>
+</table>>,
+		pos="598.5,703.5",
+		width=1.0417];
+	nodo1 -> nodo56	[pos="e,579.6,740.64 560.48,777.2 564.9,768.75 569.67,759.63 574.29,750.8"];
+	nodo3	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td border='1'>.</td>
+<td>9</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="426.5,592.5",
+		width=0.79167];
+	nodo2 -> nodo3	[pos="e,445.73,629.64 465.19,666.2 460.64,657.66 455.73,648.43 450.99,639.52"];
+	nodo39	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>10,11</td>
+<td border='1'>.</td>
+<td>10,11,12,13</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="543.5,592.5",
+		width=1.9444];
+	nodo2 -> nodo39	[pos="e,523.94,629.64 504.15,666.2 508.77,657.66 513.77,648.43 518.59,639.52"];
+	nodo4	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td border='1'>.</td>
+<td>5,6,7,8</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="336.5,481.5",
+		width=1.2361];
+	nodo3 -> nodo4	[pos="e,366.34,518.64 398.02,557.01 390.22,547.56 381.64,537.17 373.43,527.23"];
+	nodo36	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>9</td>
+<td border='1'>.</td>
+<td>9</td></tr>
+<tr>
+<td></td>
+<td>9</td>
+<td></td>
+</tr>
+</table>>,
+		pos="427.5,481.5",
+		width=0.79167];
+	nodo3 -> nodo36	[pos="e,427.17,518.64 426.83,555.2 426.91,547.11 426.99,538.42 427.06,529.96"];
+	nodo5	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td border='1'>.</td>
+<td>4</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="239.5,370.5",
+		width=0.79167];
+	nodo4 -> nodo5	[pos="e,267.75,403.25 304.2,444.2 294.89,433.75 284.69,422.28 275.19,411.61"];
+	nodo19	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>5,6</td>
+<td border='1'>.</td>
+<td>5,6,7,8</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="336.5,370.5",
+		width=1.3889];
+	nodo4 -> nodo19	[pos="e,336.5,407.64 336.5,444.2 336.5,436.11 336.5,427.42 336.5,418.96"];
+	nodo6	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td border='1'>.</td>
+<td>3</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="164.5,259.5",
+		width=0.79167];
+	nodo5 -> nodo6	[pos="e,189.36,296.64 214.53,333.2 208.52,324.47 202.02,315.03 195.77,305.94"];
+	nodo16	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>4</td>
+<td border='1'>.</td>
+<td>4</td></tr>
+<tr>
+<td></td>
+<td>4</td>
+<td></td>
+</tr>
+</table>>,
+		pos="239.5,259.5",
+		width=0.79167];
+	nodo5 -> nodo16	[pos="e,239.5,296.64 239.5,333.2 239.5,325.11 239.5,316.42 239.5,307.96"];
+	nodo7	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td border='1'>.</td>
+<td>2</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="81.5,148.5",
+		width=0.79167];
+	nodo6 -> nodo7	[pos="e,109.02,185.64 136.86,222.2 130.14,213.38 122.87,203.84 115.88,194.66"];
+	nodo13	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td border='1'>letra</td>
+<td>3</td></tr>
+<tr>
+<td></td>
+<td>3</td>
+<td></td>
+</tr>
+</table>>,
+		pos="164.5,148.5",
+		width=1.0139];
+	nodo6 -> nodo13	[pos="e,164.5,185.64 164.5,222.2 164.5,214.11 164.5,205.42 164.5,196.96"];
+	nodo8	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td border='1'>letra</td>
+<td>1</td></tr>
+<tr>
+<td></td>
+<td>1</td>
+<td></td>
+</tr>
+</table>>,
+		pos="36.5,37.5",
+		width=1.0139];
+	nodo7 -> nodo8	[pos="e,51.419,74.637 66.516,111.2 63.062,102.84 59.342,93.827 55.735,85.092"];
+	nodo10	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td border='1'>letra</td>
+<td>2</td></tr>
+<tr>
+<td></td>
+<td>2</td>
+<td></td>
+</tr>
+</table>>,
+		pos="127.5,37.5",
+		width=1.0139];
+	nodo7 -> nodo10	[pos="e,112.25,74.637 96.817,111.2 100.35,102.84 104.15,93.827 107.84,85.092"];
+	nodo20	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>5,6</td>
+<td border='1'>|</td>
+<td>5,6</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="336.5,259.5",
+		width=1.0972];
+	nodo19 -> nodo20	[pos="e,336.5,296.64 336.5,333.2 336.5,325.11 336.5,316.42 336.5,307.96"];
+	nodo26	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>A</td>
+<td></td>
+</tr>
+<tr>
+<td>7,8</td>
+<td border='1'>*</td>
+<td>7,8</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="434.5,259.5",
+		width=1.0972];
+	nodo19 -> nodo26	[pos="e,402.01,296.64 369.13,333.2 377.23,324.2 386.01,314.44 394.42,305.08"];
+	nodo21	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>5</td>
+<td border='1'>letra</td>
+<td>5</td></tr>
+<tr>
+<td></td>
+<td>5</td>
+<td></td>
+</tr>
+</table>>,
+		pos="255.5,148.5",
+		width=1.0139];
+	nodo20 -> nodo21	[pos="e,282.35,185.64 309.53,222.2 302.97,213.38 295.88,203.84 289.06,194.66"];
+	nodo23	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>6</td>
+<td border='1'>dig</td>
+<td>6</td></tr>
+<tr>
+<td></td>
+<td>6</td>
+<td></td>
+</tr>
+</table>>,
+		pos="343.5,148.5",
+		width=0.93056];
+	nodo20 -> nodo23	[pos="e,341.18,185.64 338.83,222.2 339.35,214.11 339.91,205.42 340.45,196.96"];
+	nodo27	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>7,8</td>
+<td border='1'>|</td>
+<td>7,8</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="434.5,148.5",
+		width=1.0972];
+	nodo26 -> nodo27	[pos="e,434.5,185.64 434.5,222.2 434.5,214.11 434.5,205.42 434.5,196.96"];
+	nodo28	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>7</td>
+<td border='1'>letra</td>
+<td>7</td></tr>
+<tr>
+<td></td>
+<td>7</td>
+<td></td>
+</tr>
+</table>>,
+		pos="390.5,37.5",
+		width=1.0139];
+	nodo27 -> nodo28	[pos="e,405.09,74.637 419.85,111.2 416.47,102.84 412.83,93.827 409.31,85.092"];
+	nodo30	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>8</td>
+<td border='1'>dig</td>
+<td>8</td></tr>
+<tr>
+<td></td>
+<td>8</td>
+<td></td>
+</tr>
+</table>>,
+		pos="478.5,37.5",
+		width=0.93056];
+	nodo27 -> nodo30	[pos="e,463.91,74.637 449.15,111.2 452.53,102.84 456.17,93.827 459.69,85.092"];
+	nodo40	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>10,11</td>
+<td border='1'>|</td>
+<td>10,11</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="542.5,481.5",
+		width=1.4583];
+	nodo39 -> nodo40	[pos="e,542.83,518.64 543.17,555.2 543.09,547.11 543.01,538.42 542.94,529.96"];
+	nodo46	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>A</td>
+<td></td>
+</tr>
+<tr>
+<td>12,13</td>
+<td border='1'>*</td>
+<td>12,13</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="665.5,481.5",
+		width=1.4583];
+	nodo39 -> nodo46	[pos="e,625.05,518.64 584.12,555.2 594.52,545.92 605.8,535.84 616.56,526.22"];
+	nodo41	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>10</td>
+<td border='1'>letra</td>
+<td>10</td></tr>
+<tr>
+<td></td>
+<td>10</td>
+<td></td>
+</tr>
+</table>>,
+		pos="451.5,370.5",
+		width=1.2083];
+	nodo40 -> nodo41	[pos="e,481.67,407.64 512.2,444.2 504.75,435.29 496.7,425.64 488.96,416.37"];
+	nodo43	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>11</td>
+<td border='1'>dig</td>
+<td>11</td></tr>
+<tr>
+<td></td>
+<td>11</td>
+<td></td>
+</tr>
+</table>>,
+		pos="553.5,370.5",
+		width=1.125];
+	nodo40 -> nodo43	[pos="e,549.85,407.64 546.16,444.2 546.98,436.11 547.86,427.42 548.71,418.96"];
+	nodo47	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>12,13</td>
+<td border='1'>|</td>
+<td>12,13</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>,
+		pos="665.5,370.5",
+		width=1.4583];
+	nodo46 -> nodo47	[pos="e,665.5,407.64 665.5,444.2 665.5,436.11 665.5,427.42 665.5,418.96"];
+	nodo48	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>12</td>
+<td border='1'>letra</td>
+<td>12</td></tr>
+<tr>
+<td></td>
+<td>12</td>
+<td></td>
+</tr>
+</table>>,
+		pos="610.5,259.5",
+		width=1.2083];
+	nodo47 -> nodo48	[pos="e,628.73,296.64 647.19,333.2 642.92,324.75 638.32,315.63 633.86,306.8"];
+	nodo50	[height=1.0417,
+		label=<<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>13</td>
+<td border='1'>digito</td>
+<td>13</td></tr>
+<tr>
+<td></td>
+<td>13</td>
+<td></td>
+</tr>
+</table>>,
+		pos="719.5,259.5",
+		width=1.3194];
+	nodo47 -> nodo50	[pos="e,701.6,296.64 683.48,333.2 687.67,324.75 692.19,315.63 696.56,306.8"];
+}

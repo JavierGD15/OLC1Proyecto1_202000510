@@ -1,0 +1,107 @@
+digraph grafica{
+rankdir=TB;
+forcelabels= true;
+node [shape = plaintext];
+nodo1 [label = <<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td border='1'>.</td>
+<td>3</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>];
+nodo2 [label = <<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td border='1'>.</td>
+<td>1,2</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>];
+nodo3 [label = <<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>1</td>
+<td border='1'>dig</td>
+<td>1</td></tr>
+<tr>
+<td></td>
+<td>1</td>
+<td></td>
+</tr>
+</table>>];
+nodo5 [label = <<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>A</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td border='1'>*</td>
+<td>2</td></tr>
+<tr>
+<td></td>
+<td>0</td>
+<td></td>
+</tr>
+</table>>];
+nodo6 [label = <<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>2</td>
+<td border='1'>dig</td>
+<td>2</td></tr>
+<tr>
+<td></td>
+<td>2</td>
+<td></td>
+</tr>
+</table>>];
+nodo5->nodo6
+nodo2->nodo3
+nodo2->nodo5
+nodo10 [label = <<table border = '0' cellboder = '1' CELLSPACIONG='0'>
+<tr>
+<td></td>
+<td>N</td>
+<td></td>
+</tr>
+<tr>
+<td>3</td>
+<td border='1'>#</td>
+<td>3</td></tr>
+<tr>
+<td></td>
+<td>3</td>
+<td></td>
+</tr>
+</table>>];
+nodo1->nodo2
+nodo1->nodo10
+
+}

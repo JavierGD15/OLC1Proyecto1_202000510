@@ -1,0 +1,21 @@
+digraph grafica{
+rankdir=LR;
+forcelabels= true;
+node [shape = circle];
+S0;
+S1;
+S2;
+S3;
+S4;
+S5;
+S6[shape = doublecircle];
+S0->S1[label="Mayus"]
+S1->S2[label="letra"]
+S2->S3[label="ε"]
+S2->S5[label="ε"]
+S3->S4[label="letra"]
+S4->S3[label="ε"]
+S4->S5[label="ε"]
+S5->S6[label="ε"]
+
+}

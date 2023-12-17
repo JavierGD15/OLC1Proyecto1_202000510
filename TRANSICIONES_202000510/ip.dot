@@ -1,0 +1,73 @@
+digraph grafica{
+rankdir=LR;
+forcelabels= true;
+node [shape = plain];
+nodo46 [label = <<table border = '1' cellboder = '1' cellspacing='0' cellpadding='10'>
+<tr>
+<td>ESTADO</td>
+<td>dig</td>
+<td>.</td>
+</tr>
+<tr>
+<td> S10 {11} </td>
+<td> S11 </td>
+<td> -- </td>
+</tr>
+<tr>
+<td> S0 {1} </td>
+<td> S1 </td>
+<td> -- </td>
+</tr>
+<tr>
+<td> S11 {12} </td>
+<td> -- </td>
+<td> -- </td>
+</tr>
+<tr>
+<td> S1 {2} </td>
+<td> S2 </td>
+<td> -- </td>
+</tr>
+<tr>
+<td> S2 {3} </td>
+<td> S3 </td>
+<td> -- </td>
+</tr>
+<tr>
+<td> S3 {4} </td>
+<td> -- </td>
+<td> S4 </td>
+</tr>
+<tr>
+<td> S4 {5} </td>
+<td> S5 </td>
+<td> -- </td>
+</tr>
+<tr>
+<td> S5 {6} </td>
+<td> S6 </td>
+<td> -- </td>
+</tr>
+<tr>
+<td> S6 {7} </td>
+<td> S7 </td>
+<td> -- </td>
+</tr>
+<tr>
+<td> S7 {8} </td>
+<td> -- </td>
+<td> S8 </td>
+</tr>
+<tr>
+<td> S8 {9} </td>
+<td> S9 </td>
+<td> -- </td>
+</tr>
+<tr>
+<td> S9 {10} </td>
+<td> S10 </td>
+<td> -- </td>
+</tr>
+</table>>];
+
+}

@@ -421,14 +421,13 @@ public class AFN {
             fichero.close();
             Runtime rt = Runtime.getRuntime();
             
-            //rt.exec( "dot -Tjpg -o ./202000510/"+nombre+".jpg graf ./202000510/"+nombre+".dot");
+            rt.exec("dot -Tjpg -o ./AFND_202000510/"+nombre+".jpg graf ./AFND_202000510/"+nombre+".dot");
             
-            rt.exec("/opt/local/bin/dot -Tjpg -o ./AFND_202000510/"+nombre+".jpg graf ./AFND_202000510/"+nombre+".dot");
 
         }catch(IOException e){
             System.out.println(e);
             System.out.println();
-            System.out.println("error al crear la grafica");
+            System.out.println("error al crear la grafica del afnd");
         } 
     }
 }
