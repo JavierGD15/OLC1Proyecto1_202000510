@@ -1,0 +1,68 @@
+package analizadores;
+import java_cup.runtime.Symbol; 
+import Estructuras.Errores;
+import java.util.ArrayList;
+import java.util.List;
+
+
+%% 
+%class Lexico
+%public
+%line
+%char
+%cup 
+%unicode
+%ignorecase
+%{
+    public List<Errores> Errors = new ArrayList<>();
+    public int cont = 1;
+%}
+
+%init{ 
+    yyline = 1;
+    yychar = 1;
+%init} 
+BLANCOS=[ \r\t]+
+D = [0-9]
+L = [A-Za-z]
+S = [\!-\/\:-\@\]-_\{-\}\[]
+ESPECIAL = (\\n|\\\'|\\\"))
+PARRAF = [\"](((\\\")|(\\n)|(\\\'))|[^\\\"\n])*[\"]
+COMENTARIO    =  ("<!"([^><]|[^!]">"|"!"[^>]|[^<]"!"|"<"[^!])*"!>")|(\/\/(.*)*)
+%%
+
+
+{COMENTARIO} {}
+"CONJ" {return new Symbol(sym.CONJ,yyline,yychar, yytext());}
+":" {return new Symbol(sym.DOSPT,yyline,yychar, yytext());}
+("%%"|("%%"[\n])) {return new Symbol(sym.FIN,yyline,yychar, yytext());} 
+
+(";"|(";"[\n])) {return new Symbol(sym.PTCOMA,yyline,yychar, yytext());}
+"." {return new Symbol(sym.PT,yyline,yychar, yytext());}
+"," {return new Symbol(sym.COMA,yyline,yychar, yytext());}
+">" {return new Symbol(sym.MENOR,yyline,yychar, yytext());}
+":" {return new Symbol(sym.igual,yyline,yychar, yytext());}
+"{" {return new Symbol(sym.LLAVEIZ,yyline,yychar, yytext());} 
+"}" {return new Symbol(sym.LLAVEDER,yyline,yychar, yytext());} 
+"|" {return new Symbol(sym.DISYUN,yyline,yychar, yytext());}
+"?" {return new Symbol(sym.INTERR,yyline,yychar, yytext());} 
+"+" {return new Symbol(sym.MAS,yyline,yychar, yytext());} 
+"-" {return new Symbol(sym.GUION,yyline,yychar, yytext());} 
+"*" {return new Symbol(sym.POR,yyline,yychar, yytext());} 
+"~" {return new Symbol(sym.SEP,yyline,yychar, yytext());} 
+
+\n {yychar=1;}
+
+{D} {return new Symbol(sym.DIGITO,yyline,yychar, yytext());}
+{S} {return new Symbol(sym.SIGNO,yyline,yychar, yytext());}
+{L} {return new Symbol(sym.LETRA,yyline,yychar, yytext());}
+"\" \"" {return new Symbol(sym.ESPACIO,yyline,yychar, yytext());}
+{PARRAF} {return new Symbol(sym.PARRAF,yyline,yychar, yytext());}
+{BLANCOS} {}
+{ESPECIAL} {return new Symbol(sym.ESPECIAL,yyline,yychar, yytext());}
+
+. {
+    Errores err = new Errores(cont, "Léxico", "El caracter "+yytext()+" no pertenece al lenguaje", yyline, yychar);
+    cont++;
+    Errors.add(err);
+}
